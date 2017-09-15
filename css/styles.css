@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Lilypen";
+    src: url("../tipografia/lilypen.otf");
+    src: url("../tipografia/lilypen.ttf");
+    font-family: "Noelan";
+    src: url("../tipografia/noelan.otf");
+}
+
+p{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h4{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+
+.jumbotron a{
+    color: white;
+    text-decoration: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.jumbotron{
+    background: url(../img/portada.png) center center;
+    background-size: cover;
+}
+
+.portada{
+    color: white;
+}
+
+.portada h1{
+     font-family: "Noelan",cursive;
+    font-size: 450%;
+    padding-top: 30%;
+    
+    
+}
+.portada p{
+    font-family: "Lilypen",cursive;
+    font-size: 300%;
+}
+
+
+.ubicación {
+    width: 100px;
+    display: inline-block;
+    align-content: center;
+}
+
+.ubicacion img{
+    width: 100px;
+}
+
+.container {
+    margin-bottom: 10%;
+}
+
+footer{
+    background: black;
+    height: 30%;
+    color: white;
+}
+
+footer p{
+    margin-left: 5%;
+}
+
